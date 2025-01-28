@@ -9,7 +9,7 @@ public class ApiTest {
 
     @BeforeAll
     public static void setup () {
-        RestAssured.baseURI = EnvironmentConfig.get("BASE_URI");
+        RestAssured.baseURI = EnvironmentConfig.get("BASE_URL");
     }
 
     @Test
